@@ -20,6 +20,7 @@ public class Slopper implements ModInitializer {
 	public void onInitialize() {
 		// runs when minecraft is ready to load mod content
 		SlopperSounds.init();
+		SlopperEntityTypes.init();
 		SlopperArmorMaterials.init();
 		SlopperItems.init();
 		SlopperItemGroups.init();
