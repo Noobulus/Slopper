@@ -1,7 +1,6 @@
 package mod.noobulus;
 
 import mod.noobulus.item.SlopperArmorMaterials;
-import mod.noobulus.item.SlopperEntityTypes;
 import mod.noobulus.item.SlopperItemGroups;
 import mod.noobulus.item.SlopperItems;
 import mod.noobulus.sound.SlopperSounds;

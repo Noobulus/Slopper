@@ -1,7 +1,6 @@
 package mod.noobulus.item;
 
 import mod.noobulus.Slopper;
-import mod.noobulus.entity.CopperBoatEntity;
 import net.minecraft.component.type.AttributeModifierSlot;
 import net.minecraft.entity.attribute.EntityAttributeModifier;
 import net.minecraft.entity.attribute.EntityAttributes;
@@ -31,9 +30,6 @@ public class SlopperItems {
     public static final Item COPPER_PICKAXE = register(new PickaxeItem(SlopperToolMaterials.COPPER, (new Item.Settings()).attributeModifiers(PickaxeItem.createAttributeModifiers(SlopperToolMaterials.COPPER, 1.0F, -2.8F).with(EntityAttributes.PLAYER_BLOCK_INTERACTION_RANGE, new EntityAttributeModifier(SLOPPER_INTERACTION_RANGE_MODIFIER_ID, 0.5, EntityAttributeModifier.Operation.ADD_VALUE), AttributeModifierSlot.MAINHAND))), "copper_pickaxe");
     public static final Item COPPER_AXE = register(new AxeItem(SlopperToolMaterials.COPPER, (new Item.Settings()).attributeModifiers(AxeItem.createAttributeModifiers(SlopperToolMaterials.COPPER, 6.5F, -3.2F).with(EntityAttributes.PLAYER_BLOCK_INTERACTION_RANGE, new EntityAttributeModifier(SLOPPER_INTERACTION_RANGE_MODIFIER_ID, 0.5, EntityAttributeModifier.Operation.ADD_VALUE), AttributeModifierSlot.MAINHAND))), "copper_axe");
     public static final Item COPPER_HOE = register(new HoeItem(SlopperToolMaterials.COPPER, (new Item.Settings()).attributeModifiers(HoeItem.createAttributeModifiers(SlopperToolMaterials.COPPER, -1.0F, -1.5F).with(EntityAttributes.PLAYER_BLOCK_INTERACTION_RANGE, new EntityAttributeModifier(SLOPPER_INTERACTION_RANGE_MODIFIER_ID, 0.5, EntityAttributeModifier.Operation.ADD_VALUE), AttributeModifierSlot.MAINHAND))), "copper_hoe");
-
-    // bote
-    public static final Item COPPER_BOAT = register(new CopperBoatItem(false, CopperBoatEntity.Type.COPPER, new Item.Settings().maxCount(1)), "copper_boat");
 
     public static void init() {
     }
