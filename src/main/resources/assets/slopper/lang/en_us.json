@@ -1,0 +1,14 @@
+{
+  "item.slopper.copper_helmet": "Copper Helmet",
+  "item.slopper.copper_chestplate": "Copper Chestplate",
+  "item.slopper.copper_leggings": "Copper Leggings",
+  "item.slopper.copper_boots": "Copper Boots",
+
+  "item.slopper.copper_sword": "Copper Sword",
+  "item.slopper.copper_shovel": "Copper Shovel",
+  "item.slopper.copper_pickaxe": "Copper Pickaxe",
+  "item.slopper.copper_axe": "Copper Axe",
+  "item.slopper.copper_hoe": "Copper Hoe",
+
+  "subtitles.item.armor.equip_copper": "Copper armor clanks"
+}
