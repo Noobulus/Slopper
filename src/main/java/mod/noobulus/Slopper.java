@@ -24,6 +24,6 @@ public class Slopper implements ModInitializer {
 		SlopperItems.init();
 		SlopperItemGroups.init();
 		SlopperTags.init();
-		LOGGER.info("Copper \"Improved!\"");
+		LOGGER.info("Slopper Activated. Have a nice day!");
 	}
 }
