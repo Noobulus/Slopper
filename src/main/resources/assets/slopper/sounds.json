@@ -1,12 +1,12 @@
 {
   "item.armor.equip_copper": {
     "sounds": [
-      "item/armor/equip_iron1",
-      "item/armor/equip_iron2",
-      "item/armor/equip_iron3",
-      "item/armor/equip_iron4",
-      "item/armor/equip_iron5",
-      "item/armor/equip_iron6"
+      "slopper:item/armor/equip_copper1",
+      "slopper:item/armor/equip_copper2",
+      "slopper:item/armor/equip_copper3",
+      "slopper:item/armor/equip_copper4",
+      "slopper:item/armor/equip_copper5",
+      "slopper:item/armor/equip_copper6"
     ],
     "subtitle": "subtitles.item.armor.equip_copper"
   }
