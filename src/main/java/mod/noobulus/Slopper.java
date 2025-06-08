@@ -3,6 +3,7 @@ package mod.noobulus;
 import mod.noobulus.item.SlopperArmorMaterials;
 import mod.noobulus.item.SlopperItemGroups;
 import mod.noobulus.item.SlopperItems;
+import mod.noobulus.item.SlopperTags;
 import mod.noobulus.sound.SlopperSounds;
 import net.fabricmc.api.ModInitializer;
 
@@ -22,6 +23,7 @@ public class Slopper implements ModInitializer {
 		SlopperArmorMaterials.init();
 		SlopperItems.init();
 		SlopperItemGroups.init();
+		SlopperTags.init();
 		LOGGER.info("Copper \"Improved!\"");
 	}
 }
