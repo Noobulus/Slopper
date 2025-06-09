@@ -31,5 +31,9 @@ public class SlopperItemGroups {
                 Items.STONE_SWORD.getDefaultStack(), SlopperItems.COPPER_SWORD.getDefaultStack()));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register((itemGroup) -> itemGroup.addAfter(
                 Items.STONE_AXE.getDefaultStack(), SlopperItems.COPPER_AXE.getDefaultStack()));
+
+        // nuggest
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) -> itemGroup.addAfter(
+                Items.IRON_NUGGET.getDefaultStack(), SlopperItems.COPPER_NUGGET.getDefaultStack()));
     }
 }

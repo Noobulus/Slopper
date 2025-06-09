@@ -31,6 +31,9 @@ public class SlopperItems {
     public static final Item COPPER_AXE = register(new AxeItem(SlopperToolMaterials.COPPER, (new Item.Settings()).attributeModifiers(AxeItem.createAttributeModifiers(SlopperToolMaterials.COPPER, 6.5F, -3.2F).with(EntityAttributes.PLAYER_BLOCK_INTERACTION_RANGE, new EntityAttributeModifier(SLOPPER_INTERACTION_RANGE_MODIFIER_ID, 0.5, EntityAttributeModifier.Operation.ADD_VALUE), AttributeModifierSlot.MAINHAND))), "copper_axe");
     public static final Item COPPER_HOE = register(new HoeItem(SlopperToolMaterials.COPPER, (new Item.Settings()).attributeModifiers(HoeItem.createAttributeModifiers(SlopperToolMaterials.COPPER, -1.0F, -1.5F).with(EntityAttributes.PLAYER_BLOCK_INTERACTION_RANGE, new EntityAttributeModifier(SLOPPER_INTERACTION_RANGE_MODIFIER_ID, 0.5, EntityAttributeModifier.Operation.ADD_VALUE), AttributeModifierSlot.MAINHAND))), "copper_hoe");
 
+    // copper nugget
+    public static final Item COPPER_NUGGET = register(new Item(new Item.Settings()), "copper_nugget"); // totally not a dummy item i prommy :pray:
+
     public static void init() {
     }
 }
