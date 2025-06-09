@@ -4,9 +4,11 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "ArmorStandEntityMixin",
+    "DrownedEntityMixin",
     "ItemEntityMixin",
     "ItemFrameEntityMixin",
-    "LivingEntityMixin"
+    "LivingEntityMixin",
+    "MobEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1

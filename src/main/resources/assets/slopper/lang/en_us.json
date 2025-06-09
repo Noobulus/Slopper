@@ -12,5 +12,8 @@
 
   "item.slopper.copper_nugget": "Copper Nugget",
 
-  "subtitles.item.armor.equip_copper": "Copper armor clanks"
+  "subtitles.item.armor.equip_copper": "Copper armor clanks",
+
+  "tag.item.slopper.equipment_repaired_by_lightning": "Repaired when Struck by Lightning",
+  "tag.item.slopper.lightning_resistant_armor": "Protects from Lightning Strikes"
 }
